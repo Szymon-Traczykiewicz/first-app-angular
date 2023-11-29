@@ -1,0 +1,10 @@
+    <div>
+<p>Zadania wykonane</p>
+<span>Licznik wykonanych zadań : {{doneTasks.length}}</span>
+          <ul>
+      <li class="doneTask" *ngFor="let didTask of doneTasks">
+        {{didTask}}
+
+      </li>
+      </ul>
+  </div>
